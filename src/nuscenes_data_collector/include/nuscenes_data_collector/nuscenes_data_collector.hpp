@@ -472,7 +472,17 @@ private:
 
         // Check whether the sample time has been reached and the last sample is done
         if (time_diff.seconds() >= sample_duration_) {
-            check_sample_done(cur_time);
+            check_sample_done();
+            last_sample_time_ = cur_time;
+
+            // a new sample should be take
+            // Calculate timestamp (in nanoseconds)
+            uint64_t timestamp_ns = static_cast<uint64_t>(cur_time.nanoseconds());
+            std::string sample_token = generate_sample_token(sample_frame_, start_system_time_token_);
+            std::string next_sample_token = generate_sample_token(sample_frame_, start_system_time_token_);
+            sample_recorder_cache_.first = timestamp_ns;
+            sample_recorder_cache_.second.first = sample_token;
+            sample_recorder_cache_.second.second = next_sample_token;
         }
     }
 
@@ -863,7 +873,7 @@ private:
         }
     }
 
-    bool check_sample_done(rclcpp::Time cur_time){
+    bool check_sample_done(){
         // check sample done
         for(auto& sign_pair : sample_done_sign_){
             if(sign_pair.second == false){
@@ -952,17 +962,6 @@ private:
         for(auto& sign_pair : sample_done_sign_){
             sign_pair.second = false;
         }
-        last_sample_time_ = cur_time;
-
-        // a new sample should be take
-        // Calculate timestamp (in nanoseconds)
-        uint64_t timestamp_ns = static_cast<uint64_t>(cur_time.nanoseconds());
-        std::string sample_token = generate_sample_token(sample_frame_, start_system_time_token_);
-        std::string next_sample_token = generate_sample_token(sample_frame_, start_system_time_token_);
-        sample_recorder_cache_.first = timestamp_ns;
-        sample_recorder_cache_.second.first = sample_token;
-        sample_recorder_cache_.second.second = next_sample_token;
-
         return true;
     } 
 
