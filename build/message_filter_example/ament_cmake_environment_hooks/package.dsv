@@ -1,0 +1,4 @@
+source;share/message_filter_example/local_setup.bash
+source;share/message_filter_example/local_setup.dsv
+source;share/message_filter_example/local_setup.sh
+source;share/message_filter_example/local_setup.zsh

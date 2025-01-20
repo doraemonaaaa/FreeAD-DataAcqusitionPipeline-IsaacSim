@@ -1,0 +1,5 @@
+[0.018s] Invoking command in '/home/pyh/Documents/ros2_ws/RobotAD_issac_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pyh/Documents/ros2_ws/RobotAD_issac_ws/build/pointcloud_to_laserscan -- -j16 -l16
+[0.024s] [0mCMake Error: The current CMakeCache.txt directory /home/pyh/Documents/ros2_ws/RobotAD_issac_ws/build/pointcloud_to_laserscan/CMakeCache.txt is different than the directory /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/pointcloud_to_laserscan where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.029s] [0mCMake Error: The source directory "/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/pointcloud_to_laserscan" does not exist.
+[0.029s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.030s] gmake: *** [Makefile:472: cmake_check_build_system] Error 1

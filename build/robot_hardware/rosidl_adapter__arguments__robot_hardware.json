@@ -1,0 +1,7 @@
+{
+  "package_name": "robot_hardware",
+  "non_idl_tuples": [
+    "/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/robot_hardware:msg/HardwareData.msg",
+    "/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/robot_hardware:msg/IssacHardwareData.msg"
+  ]
+}

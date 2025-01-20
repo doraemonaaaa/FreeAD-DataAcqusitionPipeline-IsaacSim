@@ -1,0 +1,86 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/robot_locate
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/launch/__pycache__/localization_launch.cpython-310.pyc
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/launch/__pycache__/navigation_launch.cpython-310.pyc
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/launch/__pycache__/online_async_launch.cpython-310.pyc
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/launch/__pycache__/robot_locate.launch.cpython-310.pyc
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/launch/__pycache__/robot_locater.launch.cpython-310.pyc
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/launch/__pycache__/robot_test.launch.cpython-310.pyc
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/launch/localization_launch.py
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/launch/navigation_launch.py
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/launch/online_async_launch.py
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/launch/robot_locate.launch.py
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/launch/robot_locater.launch.py
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/launch/robot_test.launch.py
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/rviz/urdf_config.rviz
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/rviz/urdf_config.rviz.bak
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/config/beifen.yaml
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/config/ekf.yaml
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/config/mapper_params_online_async.yaml
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/config/nav2_params copy.yaml
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/config/nav2_params.yaml
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/config/old/ekf.yaml.bak
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/config/old/nav2_params (copy).yaml
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/config/old/nav2_params.yaml
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/config/old/nav2_params_origal.yaml
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/config/old/new.yaml
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/config/twist_mux.yaml
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/world/my_world.sdf
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/ament_index/resource_index/package_run_dependencies/robot_locate
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/ament_index/resource_index/parent_prefix_path/robot_locate
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/environment/ament_prefix_path.sh
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/environment/path.sh
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/environment/path.dsv
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/local_setup.bash
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/local_setup.sh
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/local_setup.zsh
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/local_setup.dsv
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/package.dsv
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/ament_index/resource_index/packages/robot_locate
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/cmake/robot_locateConfig.cmake
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/cmake/robot_locateConfig-version.cmake
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate/share/robot_locate/package.xml

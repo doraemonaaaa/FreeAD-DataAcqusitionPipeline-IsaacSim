@@ -1,0 +1,27 @@
+[0.024s] Invoking command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/nuscenes_data_collector': CMAKE_PREFIX_PATH=/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/serial_comm:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_hardware:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/nuscenes_data_collector:/opt/ros/humble:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/message_filter_example:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/keyboard_control /usr/bin/cmake --build /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/nuscenes_data_collector -- -j16 -l16
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target nuscenes_data_collector_issac_node[0m
+[0.096s] [ 50%] Built target nuscenes_data_collector_node
+[0.098s] [ 75%] [32mBuilding CXX object CMakeFiles/nuscenes_data_collector_issac_node.dir/src/nuscenes_data_collector_issac.cpp.o[0m
+[5.289s] In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[5.289s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:[m[K In member function ‘[01m[Kbool NuScenesDataCollectorIssac::check_sample_done()[m[K’:
+[5.289s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:999:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kinstance_json[m[K’
+[5.289s]   999 |                 json [01;31m[Kinstance_json[m[K;
+[5.289s]       |                      [01;31m[K^~~~~~~~~~~~~[m[K
+[5.289s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:999:17:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.289s]   999 |                 [01;35m[Kjson[m[K instance_json;
+[5.289s]       |                 [01;35m[K^~~~[m[K
+[5.305s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:1002:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kinstance_json[m[K’ was not declared in this scope; did you mean ‘[01m[Kinstance_token[m[K’?
+[5.305s]  1002 |                     [01;31m[Kinstance_json[m[K["token"] = instance_token;
+[5.305s]       |                     [01;31m[K^~~~~~~~~~~~~[m[K
+[5.305s]       |                     [32m[Kinstance_token[m[K
+[5.321s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:1011:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kinstance_json[m[K’ was not declared in this scope; did you mean ‘[01m[Kinstance_token[m[K’?
+[5.321s]  1011 |                     [01;31m[Kinstance_json[m[K = val.back(); // 取出最后一个元素，假设每次更新是对最后一个 JSON 对象的更新
+[5.322s]       |                     [01;31m[K^~~~~~~~~~~~~[m[K
+[5.322s]       |                     [32m[Kinstance_token[m[K
+[5.322s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:1012:93:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[5.322s]  1012 |                     instance_json["nbr_annotations"] = instance_json["nbr_annotations"].get<[01;31m[Kint[m[K>() + 1;
+[5.322s]       |                                                                                             [01;31m[K^~~[m[K
+[11.839s] gmake[2]: *** [CMakeFiles/nuscenes_data_collector_issac_node.dir/build.make:76: CMakeFiles/nuscenes_data_collector_issac_node.dir/src/nuscenes_data_collector_issac.cpp.o] Error 1
+[11.839s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/nuscenes_data_collector_issac_node.dir/all] Error 2
+[11.839s] gmake: *** [Makefile:146: all] Error 2
+[11.841s] Invoked command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/nuscenes_data_collector' returned '2': CMAKE_PREFIX_PATH=/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/serial_comm:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_hardware:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/nuscenes_data_collector:/opt/ros/humble:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/message_filter_example:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/keyboard_control /usr/bin/cmake --build /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/nuscenes_data_collector -- -j16 -l16

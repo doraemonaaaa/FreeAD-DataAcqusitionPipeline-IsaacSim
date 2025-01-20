@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/robot_hardware/hardware_manager" "TARGETS" "hardware_manager" "DESTINATION" "lib/robot_hardware")

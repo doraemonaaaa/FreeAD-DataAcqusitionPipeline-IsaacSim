@@ -1,0 +1,29 @@
+{
+    "calibration": {
+        "camera_intrinsic": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "rotation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "translation": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "ego_pose_token": "ego_pose_token",
+    "filename": "/home/pyh/Documents/DataSet/lidar/1127_983392162.bin",
+    "is_key_frame": true,
+    "sensor_modality": "lidar",
+    "sensor_token": "sensor_token",
+    "timestamp": 2701960610,
+    "token": "unique_token"
+}

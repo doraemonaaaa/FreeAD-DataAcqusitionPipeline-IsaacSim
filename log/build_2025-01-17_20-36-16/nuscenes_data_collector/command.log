@@ -1,0 +1,1 @@
+Invoking command in '/home/pyh/Documents/ros2_ws/RobotAD_issac_ws/build/nuscenes_data_collector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pyh/Documents/ros2_ws/RobotAD_issac_ws/build/nuscenes_data_collector -- -j16 -l16

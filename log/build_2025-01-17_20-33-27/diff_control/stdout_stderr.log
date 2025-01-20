@@ -1,0 +1,91 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found hardware_interface: 2.46.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found robot_hardware: 0.0.1 (/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_hardware/share/robot_hardware/cmake)
+-- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/diff_control
+[ 50%] [32mBuilding CXX object CMakeFiles/diff_control.dir/hardware/diffbot_system.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libdiff_control.so[0m
+[100%] Built target diff_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control//diff_control.xml
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/world/obstacles.world
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/world/sim_world.sdf
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/world/sim_world2.sdf
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/world/sim_world_2.sdf
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/include/diff_control/diff_control/diffbot_system.hpp
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/include/diff_control/diff_control/issac_bridge.hpp
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/include/diff_control/diff_control/serial_bridge.hpp
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/include/diff_control/diff_control/visibility_control.h
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/include/diff_control/diff_control/wheel.hpp
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/launch/view_robot.launch.py
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/ros2_control/diffbot.materials.xacro
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/ros2_control/diffbot.ros2_control.xacro
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/ros2_control/diffbot_model_our.urdf.xacro
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/ros2_control/inertial_macros.xacro
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/ros2_control/lidar.xacro
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/urdf/diffbot.urdf.xacro
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/launch/__pycache__/diffbot.launch.cpython-310.pyc
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/launch/__pycache__/diffbot_issac.launch.cpython-310.pyc
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/launch/__pycache__/diffbot_sim.launch.cpython-310.pyc
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/launch/diffbot.launch.py
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/launch/diffbot_sim.launch.py
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/config/diffbot_controllers.yaml
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/config/gazebo_params.yaml
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/config/gazebo_use_sim_control.yaml
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/config/urdf.rviz
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/config/urdf.rviz.old
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/environment/library_path.sh
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/environment/library_path.dsv
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/ament_index/resource_index/package_run_dependencies/diff_control
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/ament_index/resource_index/parent_prefix_path/diff_control
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/environment/path.sh
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/environment/path.dsv
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/local_setup.bash
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/local_setup.sh
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/local_setup.zsh
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/local_setup.dsv
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/package.dsv
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/ament_index/resource_index/packages/diff_control
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diff_control
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/cmake/diff_controlConfig.cmake
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/cmake/diff_controlConfig-version.cmake
+-- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/package.xml
+-- Installing: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/lib/libdiff_control.so
+-- Set runtime path of "/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/lib/libdiff_control.so" to ""
+-- Installing: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/cmake/export_diff_controlExport.cmake
+-- Installing: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control/share/diff_control/cmake/export_diff_controlExport-noconfig.cmake

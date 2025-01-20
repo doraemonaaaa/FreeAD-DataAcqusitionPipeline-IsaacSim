@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>message_filter_example</name>
+  <version>0.0.0</version>
+  <description>The message_filter_example package</description>
+  <maintainer email="user@example.com">Your Name</maintainer>
+  <license>Apache 2.0</license>
+  
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>message_filters</depend>
+
+</package>
