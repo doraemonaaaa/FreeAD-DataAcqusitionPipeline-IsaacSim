@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target nuscenes_data_collector_issac_node[0m
+[ 50%] Built target nuscenes_data_collector_node
+[ 75%] [32mBuilding CXX object CMakeFiles/nuscenes_data_collector_issac_node.dir/src/nuscenes_data_collector_issac.cpp.o[0m
+In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:[m[K In member function ‘[01m[Kvoid NuScenesDataCollectorIssac::save_image_data(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const string&)[m[K’:
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:673:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_name[m[K’ was not declared in this scope; did you mean ‘[01m[Kcamera_names_[m[K’?
+  673 |             sample_triggers_[[01;31m[Kcamera_name[m[K] = false;
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+      |                              [32m[Kcamera_names_[m[K
+gmake[2]: *** [CMakeFiles/nuscenes_data_collector_issac_node.dir/build.make:76: CMakeFiles/nuscenes_data_collector_issac_node.dir/src/nuscenes_data_collector_issac.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/nuscenes_data_collector_issac_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

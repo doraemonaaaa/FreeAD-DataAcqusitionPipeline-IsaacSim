@@ -1,0 +1,11 @@
+In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:[m[K In member function ‘[01m[Kvoid NuScenesDataCollectorIssac::save_lidar_data(const std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&, const string&)[m[K’:
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:829:105:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct pcl::PointXYZ[m[K’ has no member named ‘[01m[Kintensity[m[K’
+  829 |                 point_cloud_data.insert(point_cloud_data.end(), reinterpret_cast<const uint8_t*>(&point.[01;31m[Kintensity[m[K), reinterpret_cast<const uint8_t*>(&point.intensity) + sizeof(float));
+      |                                                                                                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:829:157:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct pcl::PointXYZ[m[K’ has no member named ‘[01m[Kintensity[m[K’
+  829 |                 point_cloud_data.insert(point_cloud_data.end(), reinterpret_cast<const uint8_t*>(&point.intensity), reinterpret_cast<const uint8_t*>(&point.[01;31m[Kintensity[m[K) + sizeof(float));
+      |                                                                                                                                                             [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nuscenes_data_collector_issac_node.dir/build.make:76: CMakeFiles/nuscenes_data_collector_issac_node.dir/src/nuscenes_data_collector_issac.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/nuscenes_data_collector_issac_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

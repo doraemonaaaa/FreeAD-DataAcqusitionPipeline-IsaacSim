@@ -1,0 +1,91 @@
+header:
+  stamp:
+    sec: 0
+    nanosec: 533333361
+  frame_id: sim_camera
+height: 900
+width: 1600
+distortion_model: plumb_bob
+d:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+k:
+- 842.9268186782152
+- 0.0
+- 800.0
+- 0.0
+- 842.9268186782152
+- 450.0
+- 0.0
+- 0.0
+- 1.0
+r:
+- 1.0
+- 0.0
+- 0.0
+- 0.0
+- 1.0
+- 0.0
+- 0.0
+- 0.0
+- 1.0
+p:
+- 842.9268186782152
+- 0.0
+- 800.0
+- 0.0
+- 0.0
+- 842.9268186782152
+- 450.0
+- 0.0
+- 0.0
+- 0.0
+- 1.0
+- 0.0
+binning_x: 0
+binning_y: 0
+roi:
+  x_offset: 0
+  y_offset: 0
+  height: 0
+  width: 0
+  do_rectify: false
+---
+
+
+
+1. header：
+stamp: 时间戳，表示消息的时间。sec 和 nanosec 字段分别表示秒和纳秒。
+sec: 0 和 nanosec: 533333361 表示该消息的时间戳。
+frame_id: 坐标系的ID，表示这个相机数据属于哪个坐标系。在这里，sim_camera 代表该信息与一个名为 sim_camera 的相机坐标系关联。
+2. height 和 width：
+height: 图像的高度，单位为像素。这里是 900 像素。
+width: 图像的宽度，单位为像素。这里是 1600 像素。
+3. distortion_model：
+distortion_model: 采用的畸变模型类型。这里使用了 plumb_bob，这是一种常见的畸变模型，通常用于描述由镜头产生的径向畸变。
+4. d (distortion coefficients)：
+d: 畸变系数。这里提供了五个系数，通常是 [k1, k2, p1, p2, k3]，用于描述相机镜头的畸变（径向和切向畸变）。这些系数的作用是对图像进行畸变校正。
+5. k (intrinsic matrix)：
+k: 相机的内参矩阵（内在参数）。它是一个 3x3 矩阵，包含了焦距、主点坐标和相机的畸变信息。具体为：
+
+k[0] 和 k[4] 是焦距（fx 和 fy）。
+k[2] 和 k[5] 是主点的坐标（cx 和 cy）。
+其他项通常是 0。
+| fx   0   cx |
+|  0   fy   cy |
+|  0    0    1 |
+在这里：
+
+fx = fy = 842.93，表示焦距。
+cx = 800 和 cy = 450，表示相机图像中心（主点）。
+6. r (rectification matrix)：
+r: 这个矩阵用于立体图像校正（rectification）。这里的矩阵是单位矩阵，说明没有进行图像的额外校正。
+7. p (projection matrix)：
+p: 投影矩阵，通常用于将3D世界坐标投影到2D图像坐标中。在此情况下，它与内参矩阵 k 类似，提供了相机的投影信息。
+8. binning_x 和 binning_y：
+binning_x 和 binning_y：这些参数表示在水平方向和垂直方向的图像缩放系数。如果值为 0，表示没有进行图像下采样。
+9. roi（Region Of Interest）：
+roi: 这个部分定义了一个矩形区域，该区域指定了感兴趣的图像部分（ROI）。在这里，所有的值都为 0，表示没有对图像进行裁剪或ROI设置。

@@ -1,0 +1,19 @@
+[0.034s] Invoking command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/serial_comm:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/rslidar_sdk:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/rslidar_msg:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_hardware:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/nuscenes_data_collector:/opt/ros/humble:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/message_filter_example:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/keyboard_control /usr/bin/cmake --build /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/pointcloud_to_laserscan -- -j16 -l16
+[0.116s] [  8%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o[0m
+[0.120s] [ 16%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o[0m
+[0.120s] [ 25%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o[0m
+[4.382s] [ 33%] [32m[1mLinking CXX executable laserscan_to_pointcloud_node[0m
+[4.569s] [ 33%] Built target laserscan_to_pointcloud_node
+[4.588s] [ 41%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[4.767s] [ 41%] Built target pointcloud_to_laserscan_node
+[13.464s] [ 50%] [32m[1mLinking CXX shared library liblaserscan_to_pointcloud.so[0m
+[14.082s] [ 50%] Built target laserscan_to_pointcloud
+[14.114s] [ 58%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[26.485s] [ 66%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[27.170s] [ 66%] Built target pointcloud_to_laserscan
+[27.198s] [ 83%] [32mBuilding CXX object CMakeFiles/sub_laser_node.dir/src/sub_laser_node.cpp.o[0m
+[27.198s] [ 83%] [32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o[0m
+[31.421s] [ 91%] [32m[1mLinking CXX executable dummy_pointcloud_publisher[0m
+[31.609s] [ 91%] Built target dummy_pointcloud_publisher
+[34.281s] [100%] [32m[1mLinking CXX executable sub_laser_node[0m
+[34.660s] [100%] Built target sub_laser_node

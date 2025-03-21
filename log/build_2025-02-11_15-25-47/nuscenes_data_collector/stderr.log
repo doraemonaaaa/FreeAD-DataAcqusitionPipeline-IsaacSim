@@ -1,0 +1,61 @@
+In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:[m[K In member function ‘[01m[Kvoid NuScenesDataCollectorIssac::save_odom_data(std::shared_ptr<tf2_msgs::msg::TFMessage_<std::allocator<void> > >)[m[K’:
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:457:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kheader[m[K’
+  457 |         uint64_t timestamp = msg->[01;31m[Kheader[m[K.stamp.sec * 1e9 + msg->header.stamp.nanosec;
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:457:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kheader[m[K’
+  457 |         uint64_t timestamp = msg->header.stamp.sec * 1e9 + msg->[01;31m[Kheader[m[K.stamp.nanosec;
+      |                                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:460:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  460 |             msg->[01;31m[Kpose[m[K.pose.orientation.x,
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:461:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  461 |             msg->[01;31m[Kpose[m[K.pose.orientation.y,
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:462:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  462 |             msg->[01;31m[Kpose[m[K.pose.orientation.z,
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:463:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  463 |             msg->[01;31m[Kpose[m[K.pose.orientation.w
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:464:9:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knlohmann::basic_json<>::value_type[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+  464 |         [01;31m[K}[m[K;
+      |         [01;31m[K^[m[K
+In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:5[m[K,
+                 from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[01m[K/usr/include/nlohmann/json.hpp:1224:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >][m[K’
+ 1224 |     basic_json& [01;36m[Koperator[m[K=(basic_json other) noexcept (
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:1224:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>[m[K’
+ 1224 |     basic_json& operator=([01;36m[Kbasic_json other[m[K) noexcept (
+      |                           [01;36m[K~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:466:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  466 |             msg->[01;31m[Kpose[m[K.pose.position.x,
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:467:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  467 |             msg->[01;31m[Kpose[m[K.pose.position.y,
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:468:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  468 |             msg->[01;31m[Kpose[m[K.pose.position.z
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:469:9:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knlohmann::basic_json<>::value_type[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+  469 |         [01;31m[K}[m[K;
+      |         [01;31m[K^[m[K
+In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:5[m[K,
+                 from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[01m[K/usr/include/nlohmann/json.hpp:1224:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >][m[K’
+ 1224 |     basic_json& [01;36m[Koperator[m[K=(basic_json other) noexcept (
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/nlohmann/json.hpp:1224:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>[m[K’
+ 1224 |     basic_json& operator=([01;36m[Kbasic_json other[m[K) noexcept (
+      |                           [01;36m[K~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:[m[K In member function ‘[01m[Kvoid NuScenesDataCollectorIssac::cal_imu_data()[m[K’:
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:572:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelta_qw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  572 |         double [01;35m[Kdelta_qw[m[K = current_rotation[3].get<double>() - previous_rotation[3].get<double>();
+      |                [01;35m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nuscenes_data_collector_issac_node.dir/build.make:76: CMakeFiles/nuscenes_data_collector_issac_node.dir/src/nuscenes_data_collector_issac.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/nuscenes_data_collector_issac_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

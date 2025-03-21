@@ -1,5 +1,0 @@
-[0.018s] Invoking command in '/home/pyh/Documents/ros2_ws/RobotAD_issac_ws/build/nuscenes_data_collector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pyh/Documents/ros2_ws/RobotAD_issac_ws/build/nuscenes_data_collector -- -j16 -l16
-[0.024s] [0mCMake Error: The current CMakeCache.txt directory /home/pyh/Documents/ros2_ws/RobotAD_issac_ws/build/nuscenes_data_collector/CMakeCache.txt is different than the directory /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/nuscenes_data_collector where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.030s] [0mCMake Error: The source directory "/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector" does not exist.
-[0.030s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.030s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1

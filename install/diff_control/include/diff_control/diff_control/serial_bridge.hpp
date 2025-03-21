@@ -1,1 +1,0 @@
-/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/diff_control/hardware/include/diff_control/serial_bridge.hpp

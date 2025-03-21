@@ -1,0 +1,462 @@
+[0.036s] Invoking command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/nuscenes_data_collector': CMAKE_PREFIX_PATH=/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/serial_comm:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/rslidar_sdk:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/rslidar_msg:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_hardware:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/nuscenes_data_collector:/opt/ros/humble:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/message_filter_example:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/keyboard_control /usr/bin/cmake --build /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/nuscenes_data_collector -- -j16 -l16
+[0.137s] [ 25%] [32mBuilding CXX object CMakeFiles/nuscenes_data_collector_node.dir/src/nuscenes_data_collector.cpp.o[0m
+[0.137s] [ 50%] [32mBuilding CXX object CMakeFiles/nuscenes_data_collector_issac_node.dir/src/nuscenes_data_collector_issac.cpp.o[0m
+[8.439s] In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[8.439s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:452:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_msgs[m[K’ was not declared in this scope
+[8.439s]   452 |     void save_odom_data(const std::shared_ptr<[01;31m[Ktf2_msgs[m[K::msg::TFMessage> msg) {
+[8.439s]       |                                               [01;31m[K^~~~~~~~[m[K
+[8.439s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:452:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.439s]   452 |     void save_odom_data(const std::shared_ptr<tf2_msgs::msg::TFMessage[01;31m[K>[m[K msg) {
+[8.439s]       |                                                                       [01;31m[K^[m[K
+[8.453s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:452:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_msgs[m[K’ was not declared in this scope
+[8.453s]   452 |     void save_odom_data(const std::shared_ptr<[01;31m[Ktf2_msgs[m[K::msg::TFMessage> msg) {
+[8.453s]       |                                               [01;31m[K^~~~~~~~[m[K
+[8.453s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:452:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.453s]   452 |     void save_odom_data(const std::shared_ptr<tf2_msgs::msg::TFMessage[01;31m[K>[m[K msg) {
+[8.453s]       |                                                                       [01;31m[K^[m[K
+[8.467s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:452:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_msgs[m[K’ was not declared in this scope
+[8.467s]   452 |     void save_odom_data(const std::shared_ptr<[01;31m[Ktf2_msgs[m[K::msg::TFMessage> msg) {
+[8.467s]       |                                               [01;31m[K^~~~~~~~[m[K
+[8.467s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:452:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.467s]   452 |     void save_odom_data(const std::shared_ptr<tf2_msgs::msg::TFMessage[01;31m[K>[m[K msg) {
+[8.467s]       |                                                                       [01;31m[K^[m[K
+[8.467s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:452:31:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[8.467s]   452 |     void save_odom_data(const [01;31m[Kstd[m[K::shared_ptr<tf2_msgs::msg::TFMessage> msg) {
+[8.467s]       |                               [01;31m[K^~~[m[K
+[8.467s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:452:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_msgs[m[K’ has not been declared
+[8.468s]   452 |     void save_odom_data(const std::shared_ptr<[01;31m[Ktf2_msgs[m[K::msg::TFMessage> msg) {
+[8.468s]       |                                               [01;31m[K^~~~~~~~[m[K
+[8.468s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:452:25:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[8.468s]   452 |     void save_odom_data([01;31m[Kconst[m[K std::shared_ptr<tf2_msgs::msg::TFMessage> msg) {
+[8.468s]       |                         [01;31m[K^~~~~[m[K
+[8.485s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:471:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_msgs[m[K’ was not declared in this scope
+[8.486s]   471 |     void save_main_character_tf(const std::shared_ptr<[01;31m[Ktf2_msgs[m[K::msg::TFMessage> msg) {
+[8.486s]       |                                                       [01;31m[K^~~~~~~~[m[K
+[8.486s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:471:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.486s]   471 |     void save_main_character_tf(const std::shared_ptr<tf2_msgs::msg::TFMessage[01;31m[K>[m[K msg) {
+[8.486s]       |                                                                               [01;31m[K^[m[K
+[8.499s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:471:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_msgs[m[K’ was not declared in this scope
+[8.499s]   471 |     void save_main_character_tf(const std::shared_ptr<[01;31m[Ktf2_msgs[m[K::msg::TFMessage> msg) {
+[8.499s]       |                                                       [01;31m[K^~~~~~~~[m[K
+[8.499s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:471:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.499s]   471 |     void save_main_character_tf(const std::shared_ptr<tf2_msgs::msg::TFMessage[01;31m[K>[m[K msg) {
+[8.499s]       |                                                                               [01;31m[K^[m[K
+[8.514s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:471:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_msgs[m[K’ was not declared in this scope
+[8.514s]   471 |     void save_main_character_tf(const std::shared_ptr<[01;31m[Ktf2_msgs[m[K::msg::TFMessage> msg) {
+[8.514s]       |                                                       [01;31m[K^~~~~~~~[m[K
+[8.514s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:471:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.514s]   471 |     void save_main_character_tf(const std::shared_ptr<tf2_msgs::msg::TFMessage[01;31m[K>[m[K msg) {
+[8.515s]       |                                                                               [01;31m[K^[m[K
+[8.515s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:471:39:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[8.515s]   471 |     void save_main_character_tf(const [01;31m[Kstd[m[K::shared_ptr<tf2_msgs::msg::TFMessage> msg) {
+[8.515s]       |                                       [01;31m[K^~~[m[K
+[8.515s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:471:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_msgs[m[K’ has not been declared
+[8.515s]   471 |     void save_main_character_tf(const std::shared_ptr<[01;31m[Ktf2_msgs[m[K::msg::TFMessage> msg) {
+[8.515s]       |                                                       [01;31m[K^~~~~~~~[m[K
+[8.515s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:471:33:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[8.515s]   471 |     void save_main_character_tf([01;31m[Kconst[m[K std::shared_ptr<tf2_msgs::msg::TFMessage> msg) {
+[8.515s]       |                                 [01;31m[K^~~~~[m[K
+[9.702s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:[m[K In member function ‘[01m[Kvoid NuScenesDataCollectorIssac::save_data(const T&, const string&)[m[K’:
+[9.702s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:420:61:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_msgs[m[K’ was not declared in this scope
+[9.703s]   420 |             if constexpr (std::is_same_v<T, std::shared_ptr<[01;31m[Ktf2_msgs[m[K::msg::TFMessage>>) {
+[9.703s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[9.703s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:420:85:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.703s]   420 |             if constexpr (std::is_same_v<T, std::shared_ptr<tf2_msgs::msg::TFMessage[01;31m[K>>[m[K) {
+[9.703s]       |                                                                                     [01;31m[K^~[m[K
+[9.703s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:420:32:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[9.703s]   420 |             if constexpr (std::[01;31m[Kis_same_v<T, std::shared_ptr<tf2_msgs::msg::TFMessage>>[m[K) {
+[9.703s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.703s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:[m[K In member function ‘[01m[Kvoid NuScenesDataCollectorIssac::save_odom_data(...)[m[K’:
+[9.703s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:455:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[9.703s]   455 |         uint64_t timestamp = [01;31m[Kmsg[m[K->header.stamp.sec * 1e9 + msg->header.stamp.nanosec;
+[9.703s]       |                              [01;31m[K^~~[m[K
+[9.711s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:455:30:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[9.712s] In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+[9.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[9.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[9.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[9.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[9.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.713s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:4[m[K,
+[9.713s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.713s] [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[9.713s]    27 | namespace [01;36m[Kmsg[m[K
+[9.713s]       |           [01;36m[K^~~[m[K
+[9.713s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[9.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[9.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[9.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[9.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[9.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.714s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.714s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.714s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:4[m[K,
+[9.714s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.714s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[9.714s]    27 | namespace [01;36m[Kmsg[m[K
+[9.714s]       |           [01;36m[K^~~[m[K
+[9.714s] In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+[9.714s]                  from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[9.714s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[9.714s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[9.714s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[9.714s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[9.714s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.714s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.714s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.715s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:4[m[K,
+[9.715s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.715s] [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[9.715s]    27 | namespace [01;36m[Kmsg[m[K
+[9.715s]       |           [01;36m[K^~~[m[K
+[9.715s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:20[m[K,
+[9.715s]                  from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[9.715s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[9.715s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:15[m[K,
+[9.715s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.716s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[9.716s]    31 | namespace [01;36m[Kmsg[m[K
+[9.716s]       |           [01;36m[K^~~[m[K
+[9.716s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[9.716s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[9.716s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:15[m[K,
+[9.716s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.716s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+[9.716s]    31 | namespace [01;36m[Kmsg[m[K
+[9.716s]       |           [01;36m[K^~~[m[K
+[9.716s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20[m[K,
+[9.716s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:20[m[K,
+[9.716s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:22[m[K,
+[9.717s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[9.717s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:18[m[K,
+[9.717s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.717s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+[9.717s]    27 | namespace [01;36m[Kmsg[m[K
+[9.717s]       |           [01;36m[K^~~[m[K
+[9.717s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[9.717s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:18[m[K,
+[9.717s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.717s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:35:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Knav_msgs::msg[m[K’
+[9.717s]    35 | namespace [01;36m[Kmsg[m[K
+[9.717s]       |           [01;36m[K^~~[m[K
+[9.717s] In file included from [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__struct.hpp:20[m[K,
+[9.717s]                  from [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection3_d__struct.hpp:22[m[K,
+[9.717s]                  from [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__struct.hpp:22[m[K,
+[9.717s]                  from [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detection3_d_array.hpp:7[m[K,
+[9.718s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:20[m[K,
+[9.718s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.718s] [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kvision_msgs::msg[m[K’
+[9.718s]    27 | namespace [01;36m[Kmsg[m[K
+[9.718s]       |           [01;36m[K^~~[m[K
+[9.718s] In file included from [01m[K/opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/clock.hpp:7[m[K,
+[9.718s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:23[m[K,
+[9.718s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.718s] [01m[K/opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krosgraph_msgs::msg[m[K’
+[9.718s]    31 | namespace [01;36m[Kmsg[m[K
+[9.718s]       |           [01;36m[K^~~[m[K
+[9.718s] In file included from [01m[K/opt/ros/humble/include/pcl_msgs/pcl_msgs/msg/point_indices.hpp:7[m[K,
+[9.718s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:62[m[K,
+[9.718s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:31[m[K,
+[9.718s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.718s] [01m[K/opt/ros/humble/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl_msgs::msg[m[K’
+[9.718s]    31 | namespace [01;36m[Kmsg[m[K
+[9.719s]       |           [01;36m[K^~~[m[K
+[9.719s] In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.719s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:462:9:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knlohmann::basic_json<>::value_type[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[9.719s]   462 |         [01;31m[K}[m[K;
+[9.719s]       |         [01;31m[K^[m[K
+[9.719s] In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:5[m[K,
+[9.719s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.719s] [01m[K/usr/include/nlohmann/json.hpp:1224:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >][m[K’
+[9.719s]  1224 |     basic_json& [01;36m[Koperator[m[K=(basic_json other) noexcept (
+[9.719s]       |                 [01;36m[K^~~~~~~~[m[K
+[9.719s] [01m[K/usr/include/nlohmann/json.hpp:1224:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>[m[K’
+[9.719s]  1224 |     basic_json& operator=([01;36m[Kbasic_json other[m[K) noexcept (
+[9.719s]       |                           [01;36m[K~~~~~~~~~~~^~~~~[m[K
+[9.719s] In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.720s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:467:9:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knlohmann::basic_json<>::value_type[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[9.720s]   467 |         [01;31m[K}[m[K;
+[9.720s]       |         [01;31m[K^[m[K
+[9.720s] In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:5[m[K,
+[9.720s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.720s] [01m[K/usr/include/nlohmann/json.hpp:1224:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >][m[K’
+[9.720s]  1224 |     basic_json& [01;36m[Koperator[m[K=(basic_json other) noexcept (
+[9.720s]       |                 [01;36m[K^~~~~~~~[m[K
+[9.720s] [01m[K/usr/include/nlohmann/json.hpp:1224:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>[m[K’
+[9.721s]  1224 |     basic_json& operator=([01;36m[Kbasic_json other[m[K) noexcept (
+[9.721s]       |                           [01;36m[K~~~~~~~~~~~^~~~~[m[K
+[9.721s] In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.721s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:[m[K In member function ‘[01m[Kvoid NuScenesDataCollectorIssac::save_main_character_tf(...)[m[K’:
+[9.721s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:472:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[9.721s]   472 |         if ([01;31m[Kmsg[m[K->transforms.empty()) {
+[9.721s]       |             [01;31m[K^~~[m[K
+[9.721s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:472:13:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[9.721s] In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+[9.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[9.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[9.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[9.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[9.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.722s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.722s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.722s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.722s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.722s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.722s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:4[m[K,
+[9.722s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.722s] [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[9.722s]    27 | namespace [01;36m[Kmsg[m[K
+[9.722s]       |           [01;36m[K^~~[m[K
+[9.722s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[9.722s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[9.722s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[9.723s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[9.723s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[9.723s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.723s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.723s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.723s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.723s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.723s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.723s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.723s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:4[m[K,
+[9.723s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.723s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[9.723s]    27 | namespace [01;36m[Kmsg[m[K
+[9.723s]       |           [01;36m[K^~~[m[K
+[9.723s] In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+[9.723s]                  from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[9.724s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[9.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[9.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[9.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[9.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.724s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:4[m[K,
+[9.724s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.724s] [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[9.724s]    27 | namespace [01;36m[Kmsg[m[K
+[9.724s]       |           [01;36m[K^~~[m[K
+[9.724s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:20[m[K,
+[9.725s]                  from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[9.725s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[9.725s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:15[m[K,
+[9.725s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.725s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[9.725s]    31 | namespace [01;36m[Kmsg[m[K
+[9.725s]       |           [01;36m[K^~~[m[K
+[9.725s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[9.725s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[9.725s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:15[m[K,
+[9.725s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.725s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+[9.725s]    31 | namespace [01;36m[Kmsg[m[K
+[9.725s]       |           [01;36m[K^~~[m[K
+[9.725s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20[m[K,
+[9.725s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:20[m[K,
+[9.725s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:22[m[K,
+[9.726s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[9.726s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:18[m[K,
+[9.726s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.726s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+[9.726s]    27 | namespace [01;36m[Kmsg[m[K
+[9.726s]       |           [01;36m[K^~~[m[K
+[9.726s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[9.726s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:18[m[K,
+[9.726s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.726s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:35:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Knav_msgs::msg[m[K’
+[9.726s]    35 | namespace [01;36m[Kmsg[m[K
+[9.727s]       |           [01;36m[K^~~[m[K
+[9.727s] In file included from [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__struct.hpp:20[m[K,
+[9.727s]                  from [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection3_d__struct.hpp:22[m[K,
+[9.727s]                  from [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__struct.hpp:22[m[K,
+[9.727s]                  from [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detection3_d_array.hpp:7[m[K,
+[9.727s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:20[m[K,
+[9.727s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.727s] [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kvision_msgs::msg[m[K’
+[9.727s]    27 | namespace [01;36m[Kmsg[m[K
+[9.727s]       |           [01;36m[K^~~[m[K
+[9.727s] In file included from [01m[K/opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/clock.hpp:7[m[K,
+[9.728s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:23[m[K,
+[9.728s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.728s] [01m[K/opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krosgraph_msgs::msg[m[K’
+[9.728s]    31 | namespace [01;36m[Kmsg[m[K
+[9.728s]       |           [01;36m[K^~~[m[K
+[9.728s] In file included from [01m[K/opt/ros/humble/include/pcl_msgs/pcl_msgs/msg/point_indices.hpp:7[m[K,
+[9.728s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:62[m[K,
+[9.728s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:31[m[K,
+[9.728s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.728s] [01m[K/opt/ros/humble/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl_msgs::msg[m[K’
+[9.728s]    31 | namespace [01;36m[Kmsg[m[K
+[9.728s]       |           [01;36m[K^~~[m[K
+[9.728s] In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.728s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:477:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[9.728s]   477 |         const auto& transform = [01;31m[Kmsg[m[K->transforms.front();
+[9.728s]       |                                 [01;31m[K^~~[m[K
+[9.728s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:477:33:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[9.728s] In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+[9.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[9.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[9.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[9.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[9.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.729s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:4[m[K,
+[9.729s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.729s] [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[9.730s]    27 | namespace [01;36m[Kmsg[m[K
+[9.730s]       |           [01;36m[K^~~[m[K
+[9.730s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[9.730s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[9.730s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[9.730s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[9.730s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[9.730s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.730s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.730s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.730s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.730s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.730s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.730s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.730s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:4[m[K,
+[9.731s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.731s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[9.731s]    27 | namespace [01;36m[Kmsg[m[K
+[9.731s]       |           [01;36m[K^~~[m[K
+[9.731s] In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+[9.731s]                  from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[9.731s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[9.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[9.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[9.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[9.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.732s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:4[m[K,
+[9.732s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.735s] [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[9.735s]    27 | namespace [01;36m[Kmsg[m[K
+[9.736s]       |           [01;36m[K^~~[m[K
+[9.736s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:20[m[K,
+[9.736s]                  from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[9.736s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[9.736s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:15[m[K,
+[9.736s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.736s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[9.736s]    31 | namespace [01;36m[Kmsg[m[K
+[9.736s]       |           [01;36m[K^~~[m[K
+[9.736s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[9.736s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[9.736s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:15[m[K,
+[9.736s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.736s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+[9.736s]    31 | namespace [01;36m[Kmsg[m[K
+[9.736s]       |           [01;36m[K^~~[m[K
+[9.736s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20[m[K,
+[9.736s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:20[m[K,
+[9.736s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:22[m[K,
+[9.736s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[9.736s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:18[m[K,
+[9.737s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.737s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+[9.737s]    27 | namespace [01;36m[Kmsg[m[K
+[9.737s]       |           [01;36m[K^~~[m[K
+[9.737s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[9.737s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:18[m[K,
+[9.737s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.737s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:35:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Knav_msgs::msg[m[K’
+[9.737s]    35 | namespace [01;36m[Kmsg[m[K
+[9.737s]       |           [01;36m[K^~~[m[K
+[9.737s] In file included from [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__struct.hpp:20[m[K,
+[9.737s]                  from [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection3_d__struct.hpp:22[m[K,
+[9.737s]                  from [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__struct.hpp:22[m[K,
+[9.737s]                  from [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detection3_d_array.hpp:7[m[K,
+[9.737s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:20[m[K,
+[9.737s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.737s] [01m[K/opt/ros/humble/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kvision_msgs::msg[m[K’
+[9.737s]    27 | namespace [01;36m[Kmsg[m[K
+[9.737s]       |           [01;36m[K^~~[m[K
+[9.738s] In file included from [01m[K/opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/clock.hpp:7[m[K,
+[9.738s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:23[m[K,
+[9.738s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.738s] [01m[K/opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krosgraph_msgs::msg[m[K’
+[9.738s]    31 | namespace [01;36m[Kmsg[m[K
+[9.738s]       |           [01;36m[K^~~[m[K
+[9.738s] In file included from [01m[K/opt/ros/humble/include/pcl_msgs/pcl_msgs/msg/point_indices.hpp:7[m[K,
+[9.738s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:62[m[K,
+[9.738s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:31[m[K,
+[9.738s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.738s] [01m[K/opt/ros/humble/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl_msgs::msg[m[K’
+[9.738s]    31 | namespace [01;36m[Kmsg[m[K
+[9.738s]       |           [01;36m[K^~~[m[K
+[9.738s] In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.738s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:488:9:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knlohmann::basic_json<>::value_type[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[9.738s]   488 |         [01;31m[K}[m[K;
+[9.738s]       |         [01;31m[K^[m[K
+[9.738s] In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:5[m[K,
+[9.738s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.738s] [01m[K/usr/include/nlohmann/json.hpp:1224:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >][m[K’
+[9.738s]  1224 |     basic_json& [01;36m[Koperator[m[K=(basic_json other) noexcept (
+[9.739s]       |                 [01;36m[K^~~~~~~~[m[K
+[9.739s] [01m[K/usr/include/nlohmann/json.hpp:1224:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>[m[K’
+[9.739s]  1224 |     basic_json& operator=([01;36m[Kbasic_json other[m[K) noexcept (
+[9.739s]       |                           [01;36m[K~~~~~~~~~~~^~~~~[m[K
+[9.739s] In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.739s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:494:9:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knlohmann::basic_json<>::value_type[m[K’ {aka ‘[01m[Knlohmann::basic_json<>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[9.739s]   494 |         [01;31m[K}[m[K;
+[9.739s]       |         [01;31m[K^[m[K
+[9.739s] In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:5[m[K,
+[9.739s]                  from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.739s] [01m[K/usr/include/nlohmann/json.hpp:1224:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Knlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>& nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>::operator=(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer, BinaryType>) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long int; NumberUnsignedType = long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer; BinaryType = std::vector<unsigned char, std::allocator<unsigned char> >][m[K’
+[9.739s]  1224 |     basic_json& [01;36m[Koperator[m[K=(basic_json other) noexcept (
+[9.739s]       |                 [01;36m[K^~~~~~~~[m[K
+[9.739s] [01m[K/usr/include/nlohmann/json.hpp:1224:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Knlohmann::basic_json<>[m[K’
+[9.739s]  1224 |     basic_json& operator=([01;36m[Kbasic_json other[m[K) noexcept (
+[9.739s]       |                           [01;36m[K~~~~~~~~~~~^~~~~[m[K
+[9.739s] In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[9.739s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:[m[K In member function ‘[01m[Kvoid NuScenesDataCollectorIssac::cal_imu_data()[m[K’:
+[9.739s] [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:566:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelta_qw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.739s]   566 |         double [01;35m[Kdelta_qw[m[K = current_rotation[3].get<double>() - previous_rotation[3].get<double>();
+[9.740s]       |                [01;35m[K^~~~~~~~[m[K
+[18.930s] gmake[2]: *** [CMakeFiles/nuscenes_data_collector_issac_node.dir/build.make:76: CMakeFiles/nuscenes_data_collector_issac_node.dir/src/nuscenes_data_collector_issac.cpp.o] Error 1
+[18.934s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/nuscenes_data_collector_issac_node.dir/all] Error 2
+[18.934s] gmake[1]: *** Waiting for unfinished jobs....
+[25.822s] [ 75%] [32m[1mLinking CXX executable nuscenes_data_collector_node[0m
+[28.424s] [ 75%] Built target nuscenes_data_collector_node
+[28.425s] gmake: *** [Makefile:146: all] Error 2
+[28.429s] Invoked command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/nuscenes_data_collector' returned '2': CMAKE_PREFIX_PATH=/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/serial_comm:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/rslidar_sdk:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/rslidar_msg:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_locate:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/diff_control:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/robot_hardware:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/nuscenes_data_collector:/opt/ros/humble:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/message_filter_example:/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/keyboard_control /usr/bin/cmake --build /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/nuscenes_data_collector -- -j16 -l16

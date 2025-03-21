@@ -1,1 +1,0 @@
-Invoking command in '/home/pyh/Documents/ros2_ws/RobotAD_issac_ws/build/robot_locate': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pyh/Documents/ros2_ws/RobotAD_issac_ws/build/robot_locate -- -j16 -l16

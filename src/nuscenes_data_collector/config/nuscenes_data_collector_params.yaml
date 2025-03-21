@@ -12,9 +12,9 @@ nuscenes_data_collector:
       - "CAM_FRONT_RIGHT"
       - "CAM_BACK_RIGHT"
       - "LIDAR_TOP"
-    scene_mode_: "train"
-    robot_model_: "diff_bot"
-    map_name_: "office_issac"
+    scene_mode_: "undefined"
+    robot_model_: "people"
+    map_name_: "full_warehouse"
     root_path_: "/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/NuscenesData"
     issac_per_sec_frame_: 60
     sample_duration_: 0.5
@@ -34,8 +34,8 @@ nuscenes_data_collector:
       CAM_FRONT_RIGHT: "CALIBRATION_CAM_FRONT_RIGHT"
       CAM_BACK_RIGHT: "CALIBRATION_CAM_BACK_RIGHT"
       LIDAR_TOP: "CALIBRATION_LIDAR_TOP"
-    target_sample_frame_: 20
-    scene_frame_: 20
+    target_sample_frame_: 40
+    scene_frame_: 40
 
 # nuscenes_data_collector_params.yaml
 # real world
@@ -51,7 +51,7 @@ nuscenes_data_collector:
 #       - "CAM_FRONT_RIGHT"
 #       - "CAM_BACK_RIGHT"
 #       - "LIDAR_TOP"
-#     scene_mode_: "train"
+#     scene_mode_: "undefined"
 #     robot_model_: "diff_bot"
 #     map_name_: "AIR_F11"
 #     root_path_: "/home/pengyh/documents/ros2_ws/RobotAD/NuscenesData"

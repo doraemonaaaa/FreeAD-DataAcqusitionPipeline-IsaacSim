@@ -1,0 +1,7 @@
+1. 实车雷达数据会比摄像头快一帧（怀疑是摄像头延迟，和时间戳设置方法问题）,使用增删重排rename的方式进行数据修复
+2. LIDAR_TOP外参设置，rotation实际是0,0,0,1,但为了迎合nuscenes改为了nuscenes的旋转(I think it is because model's memory, let us use his calibration of lidar)
+    -but if you wanna train your own model, please use 0,0,0,1 this is the right transform for training
+    -if you wanna infer by VAD data, you may need to use VAD's lidar calibration, this is work for his model VAD_base
+
+3. 分割数据集test和train_val，且让他们两个的数据集互不干扰
+4. 修改nuscenes_json_writer的文件读写，修改为缓存在程序后一次写入(important)

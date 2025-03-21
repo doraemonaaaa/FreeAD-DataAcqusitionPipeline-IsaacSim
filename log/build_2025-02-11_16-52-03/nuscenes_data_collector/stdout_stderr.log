@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target nuscenes_data_collector_issac_node[0m
+[ 50%] Built target nuscenes_data_collector_node
+[ 75%] [32mBuilding CXX object CMakeFiles/nuscenes_data_collector_issac_node.dir/src/nuscenes_data_collector_issac.cpp.o[0m
+[100%] [32m[1mLinking CXX executable nuscenes_data_collector_issac_node[0m
+/usr/bin/ld: CMakeFiles/nuscenes_data_collector_issac_node.dir/src/nuscenes_data_collector_issac.cpp.o: in function `std::enable_if<rosidl_generator_traits::is_message<tf2_msgs::msg::TFMessage_<std::allocator<void> > >::value, rosidl_message_type_support_t const&>::type rclcpp::get_message_type_support_handle<tf2_msgs::msg::TFMessage_<std::allocator<void> > >()':
+nuscenes_data_collector_issac.cpp:(.text._ZN6rclcpp31get_message_type_support_handleIN8tf2_msgs3msg10TFMessage_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv[_ZN6rclcpp31get_message_type_support_handleIN8tf2_msgs3msg10TFMessage_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv]+0x10): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<tf2_msgs::msg::TFMessage_<std::allocator<void> > >()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/nuscenes_data_collector_issac_node.dir/build.make:369: nuscenes_data_collector_issac_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/nuscenes_data_collector_issac_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,65 @@
+[0.132s] Invoking command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/usb_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/usb_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera
+[0.399s] -- The C compiler identification is GNU 11.4.0
+[0.689s] -- The CXX compiler identification is GNU 11.4.0
+[0.729s] -- Detecting C compiler ABI info
+[1.058s] -- Detecting C compiler ABI info - done
+[1.115s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.115s] -- Detecting C compile features
+[1.117s] -- Detecting C compile features - done
+[1.129s] -- Detecting CXX compiler ABI info
+[1.527s] -- Detecting CXX compiler ABI info - done
+[1.575s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.577s] -- Detecting CXX compile features
+[1.579s] -- Detecting CXX compile features - done
+[1.591s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.398s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.753s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.895s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.124s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.150s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.206s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.288s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.400s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.687s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.709s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.096s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.219s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.421s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.470s] -- Looking for pthread.h
+[4.776s] -- Looking for pthread.h - found
+[4.778s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.137s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.138s] -- Found Threads: TRUE  
+[5.413s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.586s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[5.671s] -- Found OpenCV: /usr (found version "4.5.4") 
+[6.004s] -- Configuring done
+[6.049s] -- Generating done
+[6.079s] -- Build files have been written to: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/usb_camera
+[6.119s] Invoked command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/usb_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/usb_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera
+[6.130s] Invoking command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/usb_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/usb_camera -- -j16 -l16
+[6.341s] [ 50%] [32mBuilding CXX object CMakeFiles/usb_camera_node.dir/src/usb_camera_node.cpp.o[0m
+[39.856s] [100%] [32m[1mLinking CXX executable usb_camera_node[0m
+[42.067s] [100%] Built target usb_camera_node
+[42.115s] Invoked command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/usb_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/usb_camera -- -j16 -l16
+[42.120s] Invoking command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/usb_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/usb_camera
+[42.147s] -- Install configuration: ""
+[42.149s] -- Execute custom install script
+[42.151s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/usb_camera/config/camera_params.yaml
+[42.192s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/lib/usb_camera/usb_camera_node
+[42.222s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/ament_index/resource_index/package_run_dependencies/usb_camera
+[42.258s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/ament_index/resource_index/parent_prefix_path/usb_camera
+[42.288s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/usb_camera/environment/ament_prefix_path.sh
+[42.320s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/usb_camera/environment/ament_prefix_path.dsv
+[42.362s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/usb_camera/environment/path.sh
+[42.400s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/usb_camera/environment/path.dsv
+[42.430s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/usb_camera/local_setup.bash
+[42.467s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/usb_camera/local_setup.sh
+[42.498s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/usb_camera/local_setup.zsh
+[42.534s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/usb_camera/local_setup.dsv
+[42.567s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/usb_camera/package.dsv
+[42.600s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/ament_index/resource_index/packages/usb_camera
+[42.631s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/usb_camera/cmake/usb_cameraConfig.cmake
+[42.666s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/usb_camera/cmake/usb_cameraConfig-version.cmake
+[42.698s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/usb_camera/share/usb_camera/package.xml
+[42.738s] Invoked command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/usb_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/usb_camera

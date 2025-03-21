@@ -1,0 +1,8 @@
+In file included from [01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/src/nuscenes_data_collector_issac.cpp:1[m[K:
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:[m[K In member function ‘[01m[Kvoid NuScenesDataCollectorIssac::save_bbox3d_data(const std::shared_ptr<const vision_msgs::msg::Detection3DArray_<std::allocator<void> > >&, const string&, bool)[m[K’:
+[01m[K/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/nuscenes_data_collector/include/nuscenes_data_collector/nuscenes_data_collector_issac.hpp:740:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kis_class_annotated_[m[K’
+  740 |                 [01;31m[Kis_class_annotated_[m[K[class_id] = true;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nuscenes_data_collector_issac_node.dir/build.make:76: CMakeFiles/nuscenes_data_collector_issac_node.dir/src/nuscenes_data_collector_issac.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/nuscenes_data_collector_issac_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

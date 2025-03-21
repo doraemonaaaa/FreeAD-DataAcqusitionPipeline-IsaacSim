@@ -78,12 +78,12 @@
             log_token = map_name_ + start_system_time
 
             // use instance_token map to record whether the same instance appeared in prev 
-            sample_annotation_token = generate_unique_token(devices_frame_count_, "3dbox_" + device_name + instance_token, start_system_time_token_) // frame help to record next token, and classify obj detected in same frame
+            sample_annotation_token = generate_unique_token(instance_annotated_count_[class_id], "3dbox_" + instance_token, start_system_time_token_) // frame help to record next token, and classify obj detected in same frame
 
             Visibility_token 根据置信度生成(result:1,2,3,4)
 
             Instance_token = generate_unique_token(0, class_id, start_system_time_token_)
-                - class_id = class + ‘_’ + id, such as people_jack
+                - class_id = id, such as people_4 = 4
 
             prev and next token generation: 
             ****************nly sample_token generate by the prediction of rule, others generate by slider dynamically**************
@@ -142,6 +142,13 @@
         #todo: unlike issac sim, each frame is not sync, so we should use timestamp or other measure to attempt synchronization
         - compare to issac sim, 使用 ROS2 ApproximateTimeSynchronizer 进行msg同步, make it have a synchronized frame like issac sim
 
-## TODO:
 
--- first and last sample's can_bus data can't be recorded
+## 3. start up
+
+    -- set up Real-Time Publish-Subscribe, Fast RTPS, used for RT communication
+    sudo apt-get install ros-humble-rmw-cyclonedds-cpp
+    export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp  # this use network communication, not shared memory
+
+
+## 4. attention
+    -- be sure that your sample_frame is big enough,then you won't got the different instance_token in one epoch of data capturing

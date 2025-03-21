@@ -1,0 +1,104 @@
+[0.136s] Invoking command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/pointcloud_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan
+[0.403s] -- The C compiler identification is GNU 11.4.0
+[0.688s] -- The CXX compiler identification is GNU 11.4.0
+[0.722s] -- Detecting C compiler ABI info
+[1.084s] -- Detecting C compiler ABI info - done
+[1.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.137s] -- Detecting C compile features
+[1.139s] -- Detecting C compile features - done
+[1.153s] -- Detecting CXX compiler ABI info
+[1.524s] -- Detecting CXX compiler ABI info - done
+[1.576s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.577s] -- Detecting CXX compile features
+[1.584s] -- Detecting CXX compile features - done
+[1.612s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.335s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.693s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.459s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.478s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.515s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.658s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.924s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.940s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.330s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.485s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.704s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.745s] -- Looking for pthread.h
+[5.144s] -- Looking for pthread.h - found
+[5.147s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.513s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.519s] -- Found Threads: TRUE  
+[6.706s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.803s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.807s] -- Configured cppcheck include dirs: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/pointcloud_to_laserscan/include
+[6.807s] -- Configured cppcheck exclude dirs and/or files: 
+[6.813s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.814s] -- Configured cpplint exclude dirs and/or files: 
+[6.816s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.820s] -- Added test 'lint_cmake' to check CMake code style
+[6.823s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.831s] -- Added test 'uncrustify' to check C / C++ code style
+[6.831s] -- Configured uncrustify additional arguments: 
+[6.833s] -- Added test 'xmllint' to check XML markup files
+[6.848s] -- Configuring done
+[7.011s] -- Generating done
+[7.088s] -- Build files have been written to: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/pointcloud_to_laserscan
+[7.133s] Invoked command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/pointcloud_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan
+[7.142s] Invoking command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/pointcloud_to_laserscan -- -j16 -l16
+[7.379s] [  8%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o[0m
+[7.382s] [ 16%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o[0m
+[7.383s] [ 25%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o[0m
+[24.891s] [ 33%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[25.493s] [ 41%] [32m[1mLinking CXX executable laserscan_to_pointcloud_node[0m
+[25.531s] [ 41%] Built target pointcloud_to_laserscan_node
+[26.118s] [ 41%] Built target laserscan_to_pointcloud_node
+[58.791s] [ 50%] [32m[1mLinking CXX shared library liblaserscan_to_pointcloud.so[0m
+[60.980s] [ 50%] Built target laserscan_to_pointcloud
+[61.054s] [ 58%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[109.544s] [ 66%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[111.875s] [ 66%] Built target pointcloud_to_laserscan
+[111.959s] [ 75%] [32mBuilding CXX object CMakeFiles/sub_laser_node.dir/src/sub_laser_node.cpp.o[0m
+[111.976s] [ 83%] [32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o[0m
+[131.725s] [ 91%] [32m[1mLinking CXX executable dummy_pointcloud_publisher[0m
+[132.700s] [ 91%] Built target dummy_pointcloud_publisher
+[146.407s] [100%] [32m[1mLinking CXX executable sub_laser_node[0m
+[148.289s] [100%] Built target sub_laser_node
+[148.335s] Invoked command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/pointcloud_to_laserscan -- -j16 -l16
+[148.340s] Invoking command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/pointcloud_to_laserscan
+[148.368s] -- Install configuration: ""
+[148.370s] -- Execute custom install script
+[148.371s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[148.402s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[148.436s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[148.472s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[148.503s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[148.533s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[148.565s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[148.595s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[148.629s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[148.666s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[148.699s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/sub_laser_node
+[148.729s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/__pycache__/sample_pointcloud_to_laserscan_launch.cpython-310.pyc
+[148.762s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[148.794s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[148.824s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[148.856s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[148.889s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[148.919s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[148.948s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[148.981s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[149.013s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[149.043s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[149.075s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[149.106s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[149.137s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[149.167s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[149.199s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[149.230s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[149.267s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[149.297s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[149.329s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[149.362s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[149.396s] -- Symlinking: /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[149.433s] Invoked command in '/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/build/pointcloud_to_laserscan

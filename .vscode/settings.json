@@ -82,5 +82,6 @@
         "__hash_table": "cpp",
         "__tree": "cpp",
         "ios": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/pyh/Documents/ros2_ws/RobotAD_Issac_ws/src/robot_locate"
 }
