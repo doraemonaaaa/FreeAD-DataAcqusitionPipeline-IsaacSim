@@ -539,10 +539,10 @@ private:
         uint64_t timestamp = msg->header.stamp.sec * 1e9 + msg->header.stamp.nanosec;
         ego_pose_data["timestamp"] = timestamp;
         ego_pose_data["rotation"] = {
+            msg->pose.pose.orientation.w,
             msg->pose.pose.orientation.x,
             msg->pose.pose.orientation.y,
-            msg->pose.pose.orientation.z,
-            msg->pose.pose.orientation.w
+            msg->pose.pose.orientation.z
         };
         ego_pose_data["translation"] = {
             msg->pose.pose.position.x,
@@ -574,7 +574,7 @@ private:
         latest_imu_["linear_accel"] = linear_accel_json;  // 线性加速度
         latest_imu_["q"] = orientation_json;              // 四元数
         latest_imu_["rotation_rate"] = angular_velocity_json;  // 角速度
-        latest_imu_["pos"] = latest_ego_pose_["translation"];  // 位置
+        latest_imu_["pos"] = latest_ego_pose_["translation"];  // 位置 
         latest_imu_["utime"] = timestamp;  // 保存计算的utime
     }
 

@@ -34,8 +34,8 @@ nuscenes_data_collector:
       CAM_FRONT_RIGHT: "CALIBRATION_CAM_FRONT_RIGHT"
       CAM_BACK_RIGHT: "CALIBRATION_CAM_BACK_RIGHT"
       LIDAR_TOP: "CALIBRATION_LIDAR_TOP"
-    target_sample_frame_: 40
-    scene_frame_: 40
+    target_sample_frame_: 5
+    scene_frame_: 5
 
 # nuscenes_data_collector_params.yaml
 # real world

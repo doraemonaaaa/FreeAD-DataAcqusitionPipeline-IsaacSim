@@ -504,10 +504,10 @@ private:
         
         // Access rotation (Quaternion) data
         ego_pose_data["rotation"] = json::array({
-            transform.transform.rotation.x,
-            transform.transform.rotation.y,
-            transform.transform.rotation.z,
-            transform.transform.rotation.w
+            transform.transform.rotation.w,  // w放在第一位
+            transform.transform.rotation.x,  // x放在第二位
+            transform.transform.rotation.y,  // y放在第三位
+            transform.transform.rotation.z   // z放在第四位
         });
         
         // Access translation (Position) data
@@ -590,22 +590,60 @@ private:
         last_velocity_y = velocity_y;
         last_velocity_z = velocity_z;
     
-        // 3. 计算角速度（旋转四元数差异）
+        // 3. 计算角速度 - 使用四元数正确的方法
         auto current_rotation = latest_ego_pose_["rotation"];
         auto previous_rotation = previous_ego_pose_["rotation"];
-    
-        // 计算四元数差异（简单的四元数差异，不考虑四元数的微分公式）
-        double delta_qx = current_rotation[0].get<double>() - previous_rotation[0].get<double>();
-        double delta_qy = current_rotation[1].get<double>() - previous_rotation[1].get<double>();
-        double delta_qz = current_rotation[2].get<double>() - previous_rotation[2].get<double>();
-    
-        // 计算角速度（单位：弧度/秒）
-        double angular_velocity_x = delta_qx / time_interval;
-        double angular_velocity_y = delta_qy / time_interval;
-        double angular_velocity_z = delta_qz / time_interval;
-    
-        // 更新上一时刻的旋转四元数
-        previous_ego_pose_["rotation"] = current_rotation;
+        
+        // 四元数的顺序是 wxyz
+        double q1w = previous_rotation[0].get<double>();
+        double q1x = previous_rotation[1].get<double>();
+        double q1y = previous_rotation[2].get<double>();
+        double q1z = previous_rotation[3].get<double>();
+        
+        double q2w = current_rotation[0].get<double>();
+        double q2x = current_rotation[1].get<double>();
+        double q2y = current_rotation[2].get<double>();
+        double q2z = current_rotation[3].get<double>();
+        
+        // 计算四元数的差值四元数: q_diff = q2 * q1^(-1)
+        // 计算q1的共轭（逆）
+        double q1w_inv = q1w;
+        double q1x_inv = -q1x;
+        double q1y_inv = -q1y;
+        double q1z_inv = -q1z;
+        
+        // 归一化以确保是单位四元数
+        double norm = std::sqrt(q1w_inv*q1w_inv + q1x_inv*q1x_inv + q1y_inv*q1y_inv + q1z_inv*q1z_inv);
+        q1w_inv /= norm;
+        q1x_inv /= norm;
+        q1y_inv /= norm;
+        q1z_inv /= norm;
+        
+        // 四元数乘法：q_diff = q2 * q1^(-1)
+        double diff_w = q2w * q1w_inv - q2x * q1x_inv - q2y * q1y_inv - q2z * q1z_inv;
+        double diff_x = q2w * q1x_inv + q2x * q1w_inv + q2y * q1z_inv - q2z * q1y_inv;
+        double diff_y = q2w * q1y_inv - q2x * q1z_inv + q2y * q1w_inv + q2z * q1x_inv;
+        double diff_z = q2w * q1z_inv + q2x * q1y_inv - q2y * q1x_inv + q2z * q1w_inv;
+        
+        // 从四元数提取角轴和角度
+        // 如果四元数表示小旋转，diff_w 接近 1，角度接近 0
+        double angle = 2.0 * std::acos(std::max(-1.0, std::min(1.0, diff_w))); // 限制在[-1,1]范围内
+        
+        // 避免除以零
+        double s = std::sqrt(1.0 - diff_w * diff_w);
+        double angular_velocity_x, angular_velocity_y, angular_velocity_z;
+        
+        if (s < 1e-6) {
+            // 如果旋转很小，使用近似值
+            angular_velocity_x = 2.0 * diff_x / time_interval;
+            angular_velocity_y = 2.0 * diff_y / time_interval;
+            angular_velocity_z = 2.0 * diff_z / time_interval;
+        } else {
+            // 正常情况，计算角速度矢量
+            angular_velocity_x = (angle * diff_x / s) / time_interval;
+            angular_velocity_y = (angle * diff_y / s) / time_interval;
+            angular_velocity_z = (angle * diff_z / s) / time_interval;
+        }
     
         // 4. 更新 IMU 数据
         latest_imu_["linear_accel"] = {accel_x, accel_y, accel_z};  // 线性加速度
@@ -748,6 +786,7 @@ private:
                 nlohmann::json sample_annotation_json;
                 // 获取class_id
                 std::string class_id = detection.results[0].hypothesis.class_id;
+                // filter the bbox3d from different view
                 if (is_class_annotated_.find(class_id) != is_class_annotated_.end() && is_class_annotated_[class_id]) {
                     continue;
                 }
@@ -769,9 +808,14 @@ private:
                 sample_annotation_json["attribute_tokens"] = nlohmann::json::array({"ab83627ff28b465b85c427162dec722f"}); // pedestrain.moving
                 // translation：从 bbox 中获取位置
                 const auto &bbox = detection.bbox;
-                sample_annotation_json["translation"] = {bbox.center.position.x, bbox.center.position.y, bbox.center.position.z};
+                // z坐标减去物体高度的一半, 作为isaac数据的补偿
+                sample_annotation_json["translation"] = {
+                    bbox.center.position.x, 
+                    bbox.center.position.y, 
+                    bbox.center.position.z - (bbox.size.z / 2.0)  // 减去物体高度的一半
+                };
                 // rotation：从 bbox 中获取方向（四元数）
-                sample_annotation_json["rotation"] = {bbox.center.orientation.x, bbox.center.orientation.y, bbox.center.orientation.z, bbox.center.orientation.w};
+                sample_annotation_json["rotation"] = {bbox.center.orientation.w, bbox.center.orientation.x, bbox.center.orientation.y, bbox.center.orientation.z};
                 // size：从 bbox 数据获取
                 sample_annotation_json["size"] = {bbox.size.x, bbox.size.y, bbox.size.z};
                 // 填充 prev 和 next
